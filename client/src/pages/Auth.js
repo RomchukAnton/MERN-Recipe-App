@@ -4,7 +4,6 @@ import Register from '../components/Register'
 import '../pages/Auth.css'
 
 
-
 function Auth() {
 
   const [containerActive, setContainerActive] = useState(false);

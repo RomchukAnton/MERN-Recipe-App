@@ -6,6 +6,9 @@ import CreateRecipe from './pages/CreateRecipe';
 import SavedRecipes from './pages/SavedRecipes';
 import Navbar from './components/Navbar';
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
           <Route path='/saved-recipes' element={<SavedRecipes />} />
         </Routes>
       </Router>
+      <ToastContainer />
     </div>
   );
 }
